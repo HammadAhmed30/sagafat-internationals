@@ -1,0 +1,18 @@
+.custom_landing_page_height{
+    height: calc(100vh - 100px);
+}
+.image_div_before::before{
+    content: "";
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .custom_landing_page_height{
+        height: calc(100vh - 70px);
+    }
+}
