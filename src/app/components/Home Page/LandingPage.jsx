@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../../styles/HomePage.module.css";
 import Wrapper from "../Universal/Wrapper";
+import Link from "next/link";
 
 export default function LandingPage() {
   return (
@@ -22,9 +23,11 @@ export default function LandingPage() {
               the world, including cricket, football, and other sports
               enthusiasts.
             </p>
-            <button className="bg-[#101010] px-[25px] text-white py-[10px] font-[Jomolhari] tracking-[5px] text-[13px] md:text-[1em]">
-              EXPLORE
-            </button>
+            <Link href="/products">
+              <button className="bg-[#101010] px-[25px] text-white py-[10px] font-[Jomolhari] tracking-[5px] text-[13px] md:text-[1em]">
+                EXPLORE
+              </button>
+            </Link>
           </div>
         </div>
         <div className={`relative h-full w-full md:w-[50%]`}>
