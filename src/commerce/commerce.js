@@ -2,4 +2,4 @@ import Commerce from "@chec/commerce.js";
 // install commerce.js it using "npm install @chec/commerce.js"
 
 
-export const commerce = new Commerce('pk_test_51053bf1b8d366ca83611b3f83251eb89899d3f792ffc',true)
+export const commerce = new Commerce('pk_test_54030e72433f7ab62302df877a8dbc6329fbeb35644b2',true)

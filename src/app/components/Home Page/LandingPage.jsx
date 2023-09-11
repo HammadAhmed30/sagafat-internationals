@@ -18,10 +18,7 @@ export default function LandingPage() {
               </h1>
             </div>
             <p className="text-[#777] font-Poppins my-[2em] w-[100%] md:w-[80%] md:text-[1em] text-[14px] leading-[130%] text-center md:text-left">
-              We are Sagafat Sports, a sportswear clothing exporter from
-              Pakistan. Since 2015, we have been serving clients from all over
-              the world, including cricket, football, and other sports
-              enthusiasts.
+              We are Sagafat Internationals, a company based in Pakistan specializing in the export and manufacturing of sportswear, streetwear, and activewear.
             </p>
             <Link href="/products">
               <button className="bg-[#101010] px-[25px] text-white py-[10px] font-[Jomolhari] tracking-[5px] text-[13px] md:text-[1em]">
